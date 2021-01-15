@@ -13,13 +13,13 @@ namespace PlexContext
         public double? Rating { get; set; }
         public long? ViewOffset { get; set; }
         public long? ViewCount { get; set; }
-        public byte[] LastViewedAt { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? LastViewedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public long? SkipCount { get; set; }
-        public byte[] LastSkippedAt { get; set; }
+        public DateTime? LastSkippedAt { get; set; }
         public long? ChangedAt { get; set; }
         public string ExtraData { get; set; }
-        public byte[] LastRatedAt { get; set; }
+        public DateTime? LastRatedAt { get; set; }
     }
 }

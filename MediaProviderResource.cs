@@ -17,9 +17,9 @@ namespace PlexContext
         public string Uri { get; set; }
         public string Uuid { get; set; }
         public string ExtraData { get; set; }
-        public byte[] LastSeenAt { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? LastSeenAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public byte[] Data { get; set; }
     }
 }

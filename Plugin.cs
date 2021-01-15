@@ -11,8 +11,8 @@ namespace PlexContext
         public string Identifier { get; set; }
         public long? FrameworkVersion { get; set; }
         public long? AccessCount { get; set; }
-        public byte[] InstalledAt { get; set; }
-        public byte[] AccessedAt { get; set; }
-        public byte[] ModifiedAt { get; set; }
+        public DateTime? InstalledAt { get; set; }
+        public DateTime? AccessedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
     }
 }

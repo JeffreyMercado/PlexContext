@@ -16,9 +16,9 @@ namespace PlexContext
         public long? Index { get; set; }
         public long? Size { get; set; }
         public long? Duration { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
-        public byte[] DeletedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
         public string ExtraData { get; set; }
     }
 }

@@ -11,8 +11,8 @@ namespace PlexContext
         public long? LibrarySectionId { get; set; }
         public long? ParentDirectoryId { get; set; }
         public string Path { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
-        public byte[] DeletedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
     }
 }

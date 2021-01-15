@@ -43,15 +43,15 @@ namespace PlexContext
         public string TagsDirector { get; set; }
         public string TagsWriter { get; set; }
         public string TagsStar { get; set; }
-        public byte[] OriginallyAvailableAt { get; set; }
-        public byte[] AvailableAt { get; set; }
-        public byte[] ExpiresAt { get; set; }
-        public byte[] RefreshedAt { get; set; }
+        public DateTime? OriginallyAvailableAt { get; set; }
+        public DateTime? AvailableAt { get; set; }
+        public DateTime? ExpiresAt { get; set; }
+        public DateTime? RefreshedAt { get; set; }
         public long? Year { get; set; }
-        public byte[] AddedAt { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
-        public byte[] DeletedAt { get; set; }
+        public DateTime? AddedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
         public string TagsCountry { get; set; }
         public string ExtraData { get; set; }
         public string Hash { get; set; }

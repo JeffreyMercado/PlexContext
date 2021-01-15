@@ -11,7 +11,7 @@ namespace PlexContext
         public long? MetadataItemId { get; set; }
         public long? RelatedMetadataItemId { get; set; }
         public long? RelationType { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace PlexContext
         public long? PlayQueueId { get; set; }
         public long? MetadataItemId { get; set; }
         public double? Order { get; set; }
-        public byte[] UpNext { get; set; }
+        public bool? UpNext { get; set; }
         public long? PlayQueueGeneratorId { get; set; }
     }
 }

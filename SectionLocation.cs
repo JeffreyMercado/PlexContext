@@ -10,9 +10,9 @@ namespace PlexContext
         public long Id { get; set; }
         public long? LibrarySectionId { get; set; }
         public string RootPath { get; set; }
-        public byte[] Available { get; set; }
-        public byte[] ScannedAt { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public bool? Available { get; set; }
+        public DateTime? ScannedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

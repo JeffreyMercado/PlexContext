@@ -9,6 +9,6 @@ namespace PlexContext
     {
         public string Version { get; set; }
         public string RollbackSql { get; set; }
-        public byte[] OptimizeOnRollback { get; set; }
+        public bool? OptimizeOnRollback { get; set; }
     }
 }

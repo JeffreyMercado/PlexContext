@@ -11,7 +11,7 @@ namespace PlexContext
         public long? AccountId { get; set; }
         public long? DeviceId { get; set; }
         public long? Timespan { get; set; }
-        public byte[] At { get; set; }
+        public DateTime? At { get; set; }
         public long? MetadataType { get; set; }
         public long? Count { get; set; }
         public long? Duration { get; set; }

@@ -14,8 +14,8 @@ namespace PlexContext
         public string ArtUrl { get; set; }
         public string ThumbUrl { get; set; }
         public string TitlebarUrl { get; set; }
-        public byte[] Share { get; set; }
-        public byte[] HasStoreServices { get; set; }
-        public byte[] Prefs { get; set; }
+        public bool? Share { get; set; }
+        public bool? HasStoreServices { get; set; }
+        public bool? Prefs { get; set; }
     }
 }

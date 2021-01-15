@@ -14,7 +14,7 @@ namespace PlexContext
         public long? MetadataItemId { get; set; }
         public long? MediaSubscriptionId { get; set; }
         public string ExtraData { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

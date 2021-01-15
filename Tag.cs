@@ -14,8 +14,8 @@ namespace PlexContext
         public string UserThumbUrl { get; set; }
         public string UserArtUrl { get; set; }
         public string UserMusicUrl { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public long? TagValue { get; set; }
         public string ExtraData { get; set; }
         public string Key { get; set; }

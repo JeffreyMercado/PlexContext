@@ -18,11 +18,11 @@ namespace PlexContext
         public string UserThumbUrl { get; set; }
         public string UserArtUrl { get; set; }
         public string UserThemeMusicUrl { get; set; }
-        public byte[] Public { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
-        public byte[] ScannedAt { get; set; }
-        public byte[] DisplaySecondaryLevel { get; set; }
+        public bool? Public { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? ScannedAt { get; set; }
+        public bool? DisplaySecondaryLevel { get; set; }
         public string UserFields { get; set; }
         public string QueryXml { get; set; }
         public long? QueryType { get; set; }

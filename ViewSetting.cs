@@ -13,8 +13,8 @@ namespace PlexContext
         public string ViewGroup { get; set; }
         public long? ViewId { get; set; }
         public long? SortId { get; set; }
-        public byte[] SortAsc { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public bool? SortAsc { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

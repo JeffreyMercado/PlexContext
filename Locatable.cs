@@ -11,8 +11,8 @@ namespace PlexContext
         public long LocationId { get; set; }
         public long LocatableId { get; set; }
         public string LocatableType { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public string ExtraData { get; set; }
         public long? GeocodingVersion { get; set; }
     }

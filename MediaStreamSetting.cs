@@ -11,7 +11,7 @@ namespace PlexContext
         public long? AccountId { get; set; }
         public long? MediaStreamId { get; set; }
         public string ExtraData { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

@@ -149,7 +149,7 @@ namespace PlexContext
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
-                entity.Property(e => e.Blob1)
+                entity.Property(e => e.Content)
                     .HasColumnType("blob")
                     .HasColumnName("blob");
 

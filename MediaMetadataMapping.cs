@@ -10,7 +10,7 @@ namespace PlexContext
         public long Id { get; set; }
         public string MediaGuid { get; set; }
         public string MetadataGuid { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

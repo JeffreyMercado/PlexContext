@@ -15,7 +15,7 @@ namespace PlexContext
         public long? TimeOffset { get; set; }
         public long? EndTimeOffset { get; set; }
         public string ThumbUrl { get; set; }
-        public byte[] CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
         public string ExtraData { get; set; }
     }
 }

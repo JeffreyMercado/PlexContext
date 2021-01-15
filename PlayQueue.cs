@@ -21,8 +21,8 @@ namespace PlexContext
         public long? CurrentPlayQueueItemId { get; set; }
         public long? LastAddedPlayQueueItemId { get; set; }
         public long? Version { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public long? MetadataType { get; set; }
         public long? TotalItemsCount { get; set; }
         public byte[] GeneratorGeneratorIds { get; set; }

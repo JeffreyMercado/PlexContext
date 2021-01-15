@@ -13,15 +13,15 @@ namespace PlexContext
         public string Url { get; set; }
         public string Codec { get; set; }
         public string Language { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public long? Index { get; set; }
         public long? MediaPartId { get; set; }
         public long? Channels { get; set; }
         public long? Bitrate { get; set; }
         public long? UrlIndex { get; set; }
-        public byte[] Default { get; set; }
-        public byte[] Forced { get; set; }
+        public bool? Default { get; set; }
+        public bool? Forced { get; set; }
         public string ExtraData { get; set; }
     }
 }

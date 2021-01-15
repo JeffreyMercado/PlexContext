@@ -14,7 +14,7 @@ namespace PlexContext
         public long? TargetLibrarySectionId { get; set; }
         public long? TargetSectionLocationId { get; set; }
         public string ExtraData { get; set; }
-        public byte[] CreatedAt { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace PlexContext
         public long? LibrarySectionId { get; set; }
         public long? MetadataItemId { get; set; }
         public long? State { get; set; }
-        public byte[] UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

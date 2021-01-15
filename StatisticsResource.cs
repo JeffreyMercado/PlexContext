@@ -9,7 +9,7 @@ namespace PlexContext
     {
         public long Id { get; set; }
         public long? Timespan { get; set; }
-        public byte[] At { get; set; }
+        public DateTime? At { get; set; }
         public double? HostCpuUtilization { get; set; }
         public double? ProcessCpuUtilization { get; set; }
         public double? HostMemoryUtilization { get; set; }
